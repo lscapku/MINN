@@ -16,11 +16,11 @@ Tensorflow 2.4 / Cuda 11.0 / Python 3.8
 
 ## Running cases
 
-1. Run the MATLAB code Scattering.m to generate integral path xy_pre.mat and k0_pre.mat (the code will break after the .mat files are generated at this step).
+1. Run the MATLAB code ```Scattering.m``` to generate integral path ```xy_pre.mat``` and ```k0_pre.mat``` (the code will break after the .mat files are generated at this step).
 
-2. Run MINN.ipynb to factorize the Wiener-Hopf kernel. We provide an initial weight file dnn28_mat_2factor.h5 and the readers can train from this weight (the first three layers are frozen in the code). The readers can also choose to begin from a random weight.
+2. Run ```MINN.ipynb``` to factorize the Wiener-Hopf kernel. We provide an initial weight file ```dnn28_mat_2factor.h5``` and the readers can train from this weight (the first three layers are frozen in the code). The readers can also choose to begin from a random weight.
 
-3. Run Scattering.m to see the parallel plate scattering near-field results.
+3. Run ```Scattering.m``` to see the parallel plate scattering near-field results.
 
 ## Reference
 
